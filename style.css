@@ -1,0 +1,61 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .main{
+
+    margin-top: 42px;
+text-align: center;
+
+
+   
+ }
+ .div{
+   background-color: rgba(255, 196, 0, 0.904);
+border: 1px gray solid;
+border-radius: 50px;
+padding:10px 8px ;
+
+ }
+ .sing{
+   background-color: brown;
+}
+ .clear{
+   padding: 0px 80px;
+   border: 1px gray solid;
+   background-color: brown;
+   border-radius: 50px;
+ }
+ .btn{
+    border: 1px gray solid;
+    padding:12px 8px ;
+    border-radius: 50px;
+    margin: 0px 5px;
+ }
+ .btn:hover{
+  opacity: 0.9;
+ }
+ .row{
+   margin: 4px 0px;
+ }
+ .button{
+   margin-top: 10px;
+ }
+ .heading{
+   text-align: center;
+ }
+ .equal{
+   padding: 4px 50px;
+   background-color: brown;
+border: 1px gray solid; 
+border-radius: 5px;
+
+ }
+ .inp{
+  margin-top: 5px;
+
+ }
+ .equal,.div:hover{
+   opacity: 0.9;
+ }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta htp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="heading">welcome to calculate me! </h1>
+    <div class="main">
+    <div ><input id="result" class="inp" type="text"></div>
+    <div class="button">
+ <div class="cancel">
+    <button onclick="cancel()" class="clear">C</button>
+
+ </div>
+<div class="row">
+<button class="btn" onclick="getNumber('7')" style="background-color: rgba(255, 196, 0, 0.904);">7</button>
+<button class="btn" onclick="getNumber('8')" style="background-color: rgba(255, 196, 0, 0.904);">8</button>
+<button class="btn" onclick="getNumber('9')"style="background-color: rgba(255, 196, 0, 0.904);">9</button>
+<button onclick="getNumber('*')"class="btn sing">x</button>
+</div>
+<div class="row">
+    <button class="btn"onclick="getNumber('4')" style="background-color: rgba(255, 196, 0, 0.904);">4</button>
+    <button class="btn" onclick="getNumber('5')"style="background-color: rgba(255, 196, 0, 0.904);">5</button>
+    <button class="btn"onclick="getNumber('6')" style="background-color: rgba(255, 196, 0, 0.904);">6</button>
+    <button onclick="getNumber('-')" class="btn sing">-</button>
+    </div>
+    <div class="row">
+        <button class="btn"onclick="getNumber('1')" style="background-color: rgba(255, 196, 0, 0.904);">1</button>
+        <button class="btn"onclick="getNumber('2')" style="background-color: rgba(255, 196, 0, 0.904);">2</button>
+        <button class="btn"onclick="getNumber('3')" style="background-color: rgba(255, 196, 0, 0.904);">3</button>
+        <button onclick="getNumber('+ ')"class="btn sing">+</button>
+        </div>
+</div>
+<div class="row3">
+    <button  onclick="result()"class="equal">=</button>
+    <button onclick="getNumber('0')"class="div">0 </button>
+
+</div>
+</div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
